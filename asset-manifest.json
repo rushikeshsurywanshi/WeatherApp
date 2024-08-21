@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/rushikeshsurywanshi/WeatherApp.git/static/css/main.e6f136fb.chunk.css",
-    "main.js": "/rushikeshsurywanshi/WeatherApp.git/static/js/main.defaae2b.chunk.js",
-    "main.js.map": "/rushikeshsurywanshi/WeatherApp.git/static/js/main.defaae2b.chunk.js.map",
-    "runtime-main.js": "/rushikeshsurywanshi/WeatherApp.git/static/js/runtime-main.bb28018d.js",
-    "runtime-main.js.map": "/rushikeshsurywanshi/WeatherApp.git/static/js/runtime-main.bb28018d.js.map",
-    "static/js/2.09b79422.chunk.js": "/rushikeshsurywanshi/WeatherApp.git/static/js/2.09b79422.chunk.js",
-    "static/js/2.09b79422.chunk.js.map": "/rushikeshsurywanshi/WeatherApp.git/static/js/2.09b79422.chunk.js.map",
-    "index.html": "/rushikeshsurywanshi/WeatherApp.git/index.html",
-    "precache-manifest.38a5d983f2ffed44d6eff888d2042ba9.js": "/rushikeshsurywanshi/WeatherApp.git/precache-manifest.38a5d983f2ffed44d6eff888d2042ba9.js",
-    "service-worker.js": "/rushikeshsurywanshi/WeatherApp.git/service-worker.js",
-    "static/css/main.e6f136fb.chunk.css.map": "/rushikeshsurywanshi/WeatherApp.git/static/css/main.e6f136fb.chunk.css.map",
-    "static/js/2.09b79422.chunk.js.LICENSE.txt": "/rushikeshsurywanshi/WeatherApp.git/static/js/2.09b79422.chunk.js.LICENSE.txt",
-    "static/media/WeatherIcons.gif": "/rushikeshsurywanshi/WeatherApp.git/static/media/WeatherIcons.0a218296.gif",
-    "static/media/App.css": "/rushikeshsurywanshi/WeatherApp.git/static/media/city1.4f1ab76e.jpg"
+    "main.css": "/rushikeshsurywanshi/WeatherApp/static/css/main.a7661291.chunk.css",
+    "main.js": "/rushikeshsurywanshi/WeatherApp/static/js/main.f089e530.chunk.js",
+    "main.js.map": "/rushikeshsurywanshi/WeatherApp/static/js/main.f089e530.chunk.js.map",
+    "runtime-main.js": "/rushikeshsurywanshi/WeatherApp/static/js/runtime-main.5ed8ea39.js",
+    "runtime-main.js.map": "/rushikeshsurywanshi/WeatherApp/static/js/runtime-main.5ed8ea39.js.map",
+    "static/js/2.09b79422.chunk.js": "/rushikeshsurywanshi/WeatherApp/static/js/2.09b79422.chunk.js",
+    "static/js/2.09b79422.chunk.js.map": "/rushikeshsurywanshi/WeatherApp/static/js/2.09b79422.chunk.js.map",
+    "index.html": "/rushikeshsurywanshi/WeatherApp/index.html",
+    "precache-manifest.8ac86c00996df2e2cb50af71f45ab6ca.js": "/rushikeshsurywanshi/WeatherApp/precache-manifest.8ac86c00996df2e2cb50af71f45ab6ca.js",
+    "service-worker.js": "/rushikeshsurywanshi/WeatherApp/service-worker.js",
+    "static/css/main.a7661291.chunk.css.map": "/rushikeshsurywanshi/WeatherApp/static/css/main.a7661291.chunk.css.map",
+    "static/js/2.09b79422.chunk.js.LICENSE.txt": "/rushikeshsurywanshi/WeatherApp/static/js/2.09b79422.chunk.js.LICENSE.txt",
+    "static/media/WeatherIcons.gif": "/rushikeshsurywanshi/WeatherApp/static/media/WeatherIcons.0a218296.gif",
+    "static/media/App.css": "/rushikeshsurywanshi/WeatherApp/static/media/city1.4f1ab76e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb28018d.js",
+    "static/js/runtime-main.5ed8ea39.js",
     "static/js/2.09b79422.chunk.js",
-    "static/css/main.e6f136fb.chunk.css",
-    "static/js/main.defaae2b.chunk.js"
+    "static/css/main.a7661291.chunk.css",
+    "static/js/main.f089e530.chunk.js"
   ]
 }
