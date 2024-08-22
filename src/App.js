@@ -9,13 +9,8 @@ function App() {
         <CurrentLocation />
       </div>
       <div className="footer-info">
-        <a href="https://www.htmlhints.com/article/how-to-create-toggle-switch/93">
         
-        </a>{" "}
-         Developed by{" "}
-        <a target="_blank" href="https://www.linkedin.com/in/rushikesh-surywanshi/">
-          Rushikesh Surywanshi
-        </a>{" "}
+         
     
       </div>
     </React.Fragment>
