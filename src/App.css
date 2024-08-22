@@ -5,7 +5,7 @@
 	License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
-/*-- Reset Code --*/
+
 
 html,
 body,
@@ -308,7 +308,7 @@ div#txt {
 
 .temperature p {
   font-family: "Raleway", sans-serif;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 100;
   margin: 0 40px;
 }
@@ -375,31 +375,11 @@ div#txt {
 /*--w3layouts--*/
 /*--agileits--*/
 .copyright p a:hover {
-  color: #ffeb3b;
-}
-.hh_button {
-  display: inline-block;
-  text-decoration: none;
-  background: linear-gradient(to right, #ff8a00, #da1b60);
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  font-size: 1rem;
-  border-radius: 3px;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  margin-top: 30px;
-  right: 20px;
-  top: 1.5%;
-  animation: buttonHover 3s infinite;
-
+  color: #0dff6a;
 }
 
-.hh_button:hover {
-  background: linear-gradient(to left, #ff8a00, #da1b60);
-  box-shadow: 0 0 10px #ff8a00;
-}
+
+
 /*-- //Index-Page-Styling --*/
 /*-- Animations --*/
 
@@ -466,18 +446,6 @@ div#txt {
   }
 }
 
-
-@keyframes buttonHover {
-  0% {
-    box-shadow: 0 0 5px #da1b60;
-  }
-  50% {
-    box-shadow: 0 0 20px #ff8a00;
-  }
-  100% {
-    box-shadow: 0 0 5px #da1b60;
-  }
-}
 
 /*-- Icons --*/
 
@@ -618,24 +586,17 @@ div#txt {
   }
 }
 
-@media screen and (max-width: 480px) {
-  /*--w3layouts--*/
-  /*--agileits--*/
-  h1 {
+@media screen and (max-width: 480px) { 
+h1 {
     font-size: 28px;
     letter-spacing: 2px;
   }
   .container {
     margin-bottom: 20px;
   }
-  .forecast-icon {
-    margin: 40px 0 10px;
-  }
-  .forecast-icon img {
-    width: 100px;
-  }
+  
   .today-weather h3 {
-    font-size: 40px;
+    font-size: 10px;
   }
   .city {
     min-height: 450px;
@@ -648,7 +609,7 @@ div#txt {
   }
   .date-time {
     width: 100%;
-    padding: 0;
+    padding: 10px;
   }
   .dmy {
     padding: 0;
@@ -658,24 +619,34 @@ div#txt {
   }
   div#txt {
     font-size: 30px;
+
   }
   .date {
     font-size: 22px;
   }
   .temperature {
-    text-align: center;
+    text-align:justify;
     width: 100%;
+    padding: 20px;
+    padding-bottom: 25px;
   }
   .copyright {
     padding: 20px;
   }
+
   .temperature p {
-    font-size: 60px;
-    padding-bottom: 15px;
-  }
-  .forecast-icon img {
-    width: 65px;
-  }
+    font-size: 30px;
+    padding-bottom: 48px;
+    text-align: center;
+    margin: 15px;
+    display: flex;
+}
+
+.temperature p span {
+    font-size: 27px;
+    margin-top: 5px; /* Add some space between the text and the span */
+}
+
   .today-weather h3 {
     font-size: 30px;
   }
@@ -687,20 +658,15 @@ div#txt {
     height: 60vh;
     margin-top: 60px;
   }
-  .mb-icon {
-    top: 20% !important;
-    display: block !important;
-  }
-  .forecast-icon,
-  .today-weather h3 {
-    display: none;
-  }
+
   .today-weather {
     background-color: rgba(0, 0, 0, 0.73);
     margin-top: 22px;
     padding: 25px 0px;
-  }
-}
+  } 
+} 
+      
+
 
 @media screen and (max-width: 375px) {
   h1 {
@@ -717,10 +683,25 @@ div#txt {
   .date {
     font-size: 18px;
   }
+
+  
   .temperature p {
-    padding-bottom: 15px;
-  }
+    font-size: 30px;
+    padding-bottom: 48px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: flex;
 }
+
+.temperature p span {
+    font-size: 27px;
+    margin-top: 5px; 
+}
+
+} 
+
+
 
 /*-- //Responsive Code --*/
 .cityHead {
@@ -788,22 +769,4 @@ div#txt {
 .footer-info a {
   color: floralwhite;
   font-weight: bold;
-}
-.hh_button {
-  display: inline-block;
-  text-decoration: none;
-  background: linear-gradient(to right, #ff8a00, #da1b60);
-  border: none;
-  color: white;
-  padding: 10px 25px;
-  font-size: 1rem;
-  border-radius: 3px;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  position: relative;
-  margin-top: 30px;
-  margin: 0px;
-  position: absolute;
-  right: 20px;
-  top: 1.5%;
-}
+  }
